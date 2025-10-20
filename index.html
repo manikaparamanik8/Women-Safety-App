@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women Safety App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BACK / NEXT BUTTONS -->
+  <button class="corner-btn left backBtn">⬅ Back</button>
+  <button class="corner-btn right nextBtn">Next ➜</button>
+
+  <!-- MAIN CONTAINER -->
+  <div class="container">
+
+    <!-- LOGIN PAGE -->
+    <div class="page active" id="loginPage">
+      <h1 class="title">Women Safety Application</h1>
+      <input type="text" id="username" placeholder="Enter Name">
+      <input type="password" id="password" placeholder="Enter Password">
+      <button id="loginBtn">Login</button>
+    </div>
+
+    <!-- REGISTER PAGE -->
+    <div class="page" id="registerPage">
+      <h1 class="title">Register</h1>
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Create Password">
+      <button id="registerBtn">Register</button>
+    </div>
+
+    <!-- DASHBOARD PAGE -->
+    <div class="page" id="dashboardPage">
+      <h1 class="title">Dashboard</h1>
+      <div class="buttons">
+        <button class="dashboard-btn" id="safeZoneBtn">🏘️ Safe Zones</button>
+        <button class="dashboard-btn" id="safeTipsBtn">💡 Safe Tips</button>
+        <button class="dashboard-btn" id="sendMsgBtn">💬 Send Message</button>
+        <button class="dashboard-btn" id="callPoliceBtn">🚓 Call Police</button>
+        <button class="dashboard-btn" id="shareLocationBtn">📍 Share Location</button>
+        <button class="dashboard-btn" id="addContactBtn">👤 Add Contact</button>
+      </div>
+
+      <button id="sosBtn">🚨 SOS</button>
+      <div id="dashboardOutput"></div>
+      <button id="logoutBtn">Logout</button>
+    </div>
+
+    <!-- SUBPAGES -->
+    <div class="subPage" id="safeZonesPage">
+      <h2>🏘️ Safe Zones</h2>
+      <p>Nearby police stations, hospitals, and women's help centers are marked safe.</p>
+      <button class="backDashboard">⬅ Back</button>
+    </div>
+
+    <div class="subPage" id="safeTipsPage">
+      <h2>💡 Safety Tips</h2>
+      <p>Always share your location and stay alert. Avoid dark or isolated areas.</p>
+      <button class="backDashboard">⬅ Back</button>
+    </div>
+
+    <div class="subPage" id="sendMessagePage">
+      <h2>💬 Message Sent</h2>
+      <p>Your emergency message has been sent successfully.</p>
+      <button class="backDashboard">⬅ Back</button>
+    </div>
+
+    <div class="subPage" id="callPolicePage">
+      <h2>🚓 Calling Police...</h2>
+      <p>Police have been notified with your live location.</p>
+      <button class="backDashboard">⬅ Back</button>
+    </div>
+
+    <div class="subPage" id="shareLocationPage">
+      <h2>📍 Location Shared</h2>
+      <p>Your location has been shared via Google Maps.</p>
+      <button class="backDashboard">⬅ Back</button>
+    </div>
+
+  
+
+  <!-- LOGOUT PAGE  -->
+  <div class="page" id="logoutPage">
+   <div class="logout-container">
+    <h1 class="title">Logout Successful</h1>
+    <p>You have safely logged out.</p>
+    <button id="homeBtn">🏠 Go to Home</button>
+  </div>
+  </div> <!-- 🔹 container ends here -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,3 +1,13 @@
-# Women Safety App
-A responsive web application built with HTML, CSS, and JavaScript.
-Features include emergency alert, live location sharing and trusted contact notifications — designed for quick access to safety tools for women.
+# 🚨 Women Safety App  
+
+A responsive **web application** built using **HTML, CSS, and JavaScript**.  
+Features include:
+- SOS emergency alert button  
+- Live location sharing  
+- Trusted contact notifications  
+
+💡 Designed to enhance women’s safety and provide quick access to help during emergencies.  
+
+🔗 **Live Demo:** [View Website](https://manikaparamanik8.github.io/Women-Safety-App/)  
+📂 **Source Code:** [GitHub Repository](https://github.com/manikaparamanik8/Women-Safety-App)
+
